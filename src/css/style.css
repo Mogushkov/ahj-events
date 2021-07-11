@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    margin: 0;
+}
+
+#game-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cell {
+    padding: 10%;
+    border: 1px solid #000000;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.goblin {
+    background-image: url("../img/goblin.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pointers {
+    font-size: 20px;
+    padding: 20px;   
+}
